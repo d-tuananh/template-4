@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-base text-main font-normal leading-tight font-c_Lato;
+  }
+  section {
+    @apply mt-[6rem];
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-[1rem] xl:px-0 mx-auto;
+  }
+  .text-color {
+    background: linear-gradient(135deg, #3eed8b 0%, #0a9949 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mySwiper2 .swiper-wrapper {
+    @apply justify-between;
+  }
+
+  .mySwiper2 .swiper-slide {
+    @apply font-semibold;
+  }
+
+  .mySwiper2 .swiper-slide-thumb-active {
+    @apply bg-gradient-to-r from-[#50C577] to-[#2DBEFC] bg-clip-text text-transparent relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:bg-dd/400 before:h-1;
+  }
+
+  summary {
+    @apply relative before:content-['+'] before:absolute before:right-0 before:top-1/2 before:text-3xl before:-translate-y-1/2 before:bg-gradient-to-r before:from-[#50C577] before:to-[#2DBEFC] before:bg-clip-text before:text-transparent;
+  }
+
+  details[open] summary {
+    @apply before:content-['--'];
+  }
+}
+
+input[type="text"]:focus ~ .input-text,
+input[type="text"]:not(:placeholder-shown) ~ .input-text {
+  @apply text-blue-500 transform -translate-y-[2rem] -translate-x-2 scale-75;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  list-style: none; /* Đảm bảo không hiển thị các ký tự dòng danh sách (bullet) */
+}
