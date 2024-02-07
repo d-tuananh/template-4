@@ -12,11 +12,11 @@ import "swiper/css/thumbs"
 import { FreeMode, Navigation, Thumbs } from "swiper/modules"
 
 const data = [
-  "public/img_png/image 940.png",
-  "public/img_png/image 941.png",
-  "public/img_png/image 942.png",
-  "public/img_png/image 943.png",
-  "public/img_png/image 944.png",
+  "image 940.png",
+  "image 941.png",
+  "image 942.png",
+  "image 943.png",
+  "image 944.png",
 ]
 
 export const Section7 = () => {

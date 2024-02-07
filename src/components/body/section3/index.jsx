@@ -6,7 +6,7 @@ import { CustomBtn } from "../../customSwiper/customBtn"
 
 export const Section3 = () => {
   return (
-    <section className="bg-[url('public/img_png/line.png')] bg-no-repeat bg-bottom">
+    <section className="bg-[url('line.png')] bg-no-repeat bg-bottom">
       <div className="container">
         <div>
           <h3 className="text-4xl font-bold lg:text-start text-center">
@@ -48,7 +48,7 @@ export const Section3 = () => {
                 >
                   <div className=" bg-dd/400 overflow-hidden rounded-tl-[16%] rounded-br-[16%] rounded-lg p-3 flex flex-col gap-5 transform text-white">
                     <div className="rounded-tl-[17%] overflow-hidden rounded-lg">
-                      <img src="public/img_png/img3.png" width="100%" alt="" />
+                      <img src="img3.png" width="100%" alt="" />
                     </div>
                     <h4 className="font-semibold text-xl">Người bị cận thị</h4>
                     <p className="">

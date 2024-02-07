@@ -29,14 +29,14 @@ export const Section1 = () => {
               title="Số điện thoại từ 10 đến 12 chữ số"
             />
             <button className="min-w-fit flex justify-center items-center gap-2 p-2 rounded-full text-white bg-linear-green hover:opacity-70 shadow-key-green-gradient">
-              <img src="public/svg/send.svg" alt="" />
+              <img src="send.svg" alt="" />
               GỬI THÔNG TIN
             </button>
           </form>
         </div>
         <div className="2xl:translate-x-[10rem] bg-transparent overflow-hidden">
           <div className="bg-dd/400 rounded-tl-[50%] rounded-br-[50%] rounded-lg overflow-hidden">
-            <img src="public/img_png/img2.png" alt="" />
+            <img src="img2.png" alt="" />
           </div>
         </div>
       </div>

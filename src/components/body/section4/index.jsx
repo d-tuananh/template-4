@@ -1,24 +1,24 @@
 const data = [
   {
-    url: "public/svg/svg_8.svg",
+    url: "svg_8.svg",
     title: "Đội ngũ bác sĩ giàu kinh nghiệm",
     content:
       "Hiện nay, tại Bệnh viện Đa khoa Phương Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.",
   },
   {
-    url: "public/svg/svg_9.svg",
+    url: "svg_9.svg",
     title: "Trang thiết bị hiện đại",
     content:
       "Hiện nay, tại Bệnh viện Đa khoa Phương Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.",
   },
   {
-    url: "public/svg/svg_10.svg",
+    url: "svg_10.svg",
     title: "Đảm bảo chất lượng an toàn tuyệt đối",
     content:
       "Hiện nay, tại Bệnh viện Đa khoa Phương Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.",
   },
   {
-    url: "public/svg/svg_11.svg",
+    url: "svg_11.svg",
     title: "Dịch vụ chuyên nghiệp",
     content:
       "Hiện nay, tại Bệnh viện Đa khoa Phương Đông đáp ứng đầy đủ từ đội ngũ bác sĩ.",
@@ -57,12 +57,12 @@ export const Section4 = () => {
         </div>
         <div className="2xl:translate-x-[10rem] bg-transparent overflow-hidden ">
           <div className="relative bg-dd/400 rounded-tl-[50%] rounded-br-[50%] overflow-hidden rounded-lg">
-            <img src="public/img_png/img8.png" alt="" />
+            <img src="img8.png" alt="" />
             <button
               className="absolute top-[45%] left-[13%] bg-btn w-fit text-white flex justify-center items-center hover:opacity-70 py-2 px-3 rounded-full gap-2"
               onClick={() => prompt("Vui lòng nhập số điện thoại !")}
             >
-              <img src="public/img_png/document.png" alt="" />
+              <img src="document.png" alt="" />
               ĐĂNG KÝ TƯ VẤN
             </button>
           </div>

@@ -1,36 +1,36 @@
 const data = [
   {
-    url: "public/svg/svg_2.svg",
+    url: "svg_2.svg",
     titile: "Phục hồi thị lực",
     content:
       "Điều chỉnh độ cận, viễn và thậm chí loạn thị từ nhẹ đến nặng giúp thị lực phục hồi vào ban ngày",
   },
   {
-    url: "public/svg/svg_3.svg",
+    url: "svg_3.svg",
     titile: "Tự do hoạt động",
     content:
       "Điều chỉnh độ cận, viễn và thậm chí loạn thị từ nhẹ đến nặng giúp thị lực phục hồi vào ban ngày",
   },
   {
-    url: "public/svg/svg_4.svg",
+    url: "svg_4.svg",
     titile: "Khắc phục khô mắt",
     content:
       "Điều chỉnh độ cận, viễn và thậm chí loạn thị từ nhẹ đến nặng giúp thị lực phục hồi vào ban ngày",
   },
   {
-    url: "public/svg/svg_5.svg",
+    url: "svg_5.svg",
     titile: "Không cần phẫu thuật",
     content:
       "Điều chỉnh độ cận, viễn và thậm chí loạn thị từ nhẹ đến nặng giúp thị lực phục hồi vào ban ngày",
   },
   {
-    url: "public/svg/svg_6.svg",
+    url: "svg_6.svg",
     titile: "Thị lực được cải thiện",
     content:
       "Điều chỉnh độ cận, viễn và thậm chí loạn thị từ nhẹ đến nặng giúp thị lực phục hồi vào ban ngày",
   },
   {
-    url: "public/svg/svg_7.svg",
+    url: "svg_7.svg",
     titile: "Sử dụng đơn giản",
     content:
       "Điều chỉnh độ cận, viễn và thậm chí loạn thị từ nhẹ đến nặng giúp thị lực phục hồi vào ban ngày",
@@ -62,7 +62,7 @@ export const Section2 = () => {
               className="bg-btn w-fit text-white flex justify-center items-center hover:opacity-70 py-2 px-3 rounded-full gap-2 mx-auto lg:mx-0"
               onClick={() => prompt("Vui lòng nhập số điện thoại !")}
             >
-              <img src="public/img_png/document.png" alt="" />
+              <img src="document.png" alt="" />
               ĐĂNG KÝ TƯ VẤN
             </button>
           </div>

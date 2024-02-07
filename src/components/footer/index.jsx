@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="flex flex-col gap-3">
         <div className="">
           <a href="#">
-            <img src="public/img_png/logo 1.png" alt="" />
+            <img src="logo 1.png" alt="" />
           </a>
         </div>
         <h5 className="font-bold uppercase">Bệnh viện đa khoa phương đông</h5>
@@ -77,18 +77,18 @@ export const Footer = () => {
         <h5 className="font-bold uppercase">Theo dõi chúng tôi</h5>
         <div className="flex gap-5">
           <div className="w-8 h-8 flex justify-center items-center rounded-full bg-white">
-            <img src="public/svg/fb.svg" alt="" />
+            <img src="fb.svg" alt="" />
           </div>
           <div className="w-8 h-8 flex justify-center items-center rounded-full bg-white">
-            <img src="public/svg/ytb.svg" alt="" />
+            <img src="ytb.svg" alt="" />
           </div>
           <div className="w-8 h-8 flex justify-center items-center rounded-full bg-white">
-            <img src="public/svg/tiktok.svg" alt="" />
+            <img src="tiktok.svg" alt="" />
           </div>
         </div>
         <div className="">
           <img
-            src="public/img_png/thong-bao-website-voi-bo-cong-thuong_grande_waifu2x_photo_noise3_scale_tta_1 1.png"
+            src="thong-bao-website-voi-bo-cong-thuong_grande_waifu2x_photo_noise3_scale_tta_1 1.png"
             alt=""
           />
         </div>

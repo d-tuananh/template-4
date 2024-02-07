@@ -19,7 +19,7 @@ export const Header = () => {
   return (
     <div className="container flex justify-between items-center py-3 relative xl:static">
       <div className="cursor-pointer">
-        <img src="public/img_png/logo.png" alt="" />
+        <img src="logo.png" alt="" />
       </div>
       <ul className="hidden xl:flex items-center gap-4 font-bold">
         {menu.map((item, index) => (
@@ -70,7 +70,7 @@ export const Header = () => {
       <div className="bg-btn rounded-full hover:opacity-80 cursor-pointer xl:block hidden">
         <a href="tel:1900 1806" className="flex items-center gap-2 px-3 py-2">
           <div className="bg-white rounded-full p-1">
-            <img src="public/svg/call.svg" alt="" />
+            <img src="call.svg" alt="" />
           </div>
           <span className="text-white">Gọi 1900 1806</span>
         </a>
