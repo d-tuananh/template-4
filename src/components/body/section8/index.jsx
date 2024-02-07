@@ -1,6 +1,6 @@
 export const Section8 = () => {
   return (
-    <section className="bg-[url('img21.png')] bg-no-repeat bg-cover">
+    <section className="bg-[url('/img21.png')] bg-no-repeat bg-cover">
       <div className="container py-[4rem]">
         <div className="xl:w-1/2 rounded-2xl overflow-hidden ">
           <div className="flex flex-col justify-center items-center gap-2 bg-dd/400 text-white py-5">

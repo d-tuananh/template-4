@@ -6,7 +6,7 @@ import { CustomBtn } from "../../customSwiper/customBtn"
 
 export const Section3 = () => {
   return (
-    <section className="bg-[url('line.png')] bg-no-repeat bg-bottom">
+    <section className="bg-[url('/line.png')] bg-no-repeat bg-bottom">
       <div className="container">
         <div>
           <h3 className="text-4xl font-bold lg:text-start text-center">

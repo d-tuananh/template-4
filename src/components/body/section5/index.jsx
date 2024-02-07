@@ -68,7 +68,7 @@ const data = [
 
 export const Section5 = () => {
   return (
-    <section className="bg-[url('line.png')] bg-no-repeat bg-bottom">
+    <section className="bg-[url('/line.png')] bg-no-repeat bg-bottom">
       <div className="container">
         <h2 className="text-4xl font-bold text-center mb-10">
           Đội ngũ bác sĩ của chúng tôi
