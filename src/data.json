@@ -1,0 +1,16 @@
+{
+  "header": {
+    "logo": "./images/png/logo.png",
+    "menu": [
+      "Giới thiệu",
+      "Đối tượng khách hàng",
+      "Quy trình",
+      "Bảng giá",
+      "Cảm nhận của khách hàng",
+      "Đội ngũ bác sĩ",
+      "Hình ảnh & Video"
+    ]
+  },
+  "body": {},
+  "footer": {}
+}

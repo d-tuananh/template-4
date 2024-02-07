@@ -9,66 +9,66 @@ import { CustomBtn } from "../../customSwiper/customBtn"
 
 const data = [
   {
-    img: "src/images/png/img9.png",
+    img: "public/img_png/img9.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img10.png",
+    img: "public/img_png/img10.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img11.png",
+    img: "public/img_png/img11.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img12.png",
+    img: "public/img_png/img12.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img9.png",
+    img: "public/img_png/img9.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img10.png",
+    img: "public/img_png/img10.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img11.png",
+    img: "public/img_png/img11.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
   {
-    img: "src/images/png/img12.png",
+    img: "public/img_png/img12.png",
     name: "NGUYỄN TRUNG CHÍNH",
     job: "PGS.TS. Bác sĩ Ung bướu",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     vote: "4.8/5 (38 bình chọn)",
   },
 ]
 
 export const Section5 = () => {
   return (
-    <section className="bg-[url('src/images/png/line.png')] bg-no-repeat bg-bottom">
+    <section className="bg-[url('public/img_png/line.png')] bg-no-repeat bg-bottom">
       <div className="container">
         <h2 className="text-4xl font-bold text-center mb-10">
           Đội ngũ bác sĩ của chúng tôi

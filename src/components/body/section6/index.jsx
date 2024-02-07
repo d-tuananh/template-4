@@ -10,73 +10,73 @@ import { CustomBtn } from "../../customSwiper/customBtn"
 
 const data = [
   {
-    img: "src/images/png/img14.png",
-    img_user: "src/images/png/img18.png",
+    img: "public/img_png/img14.png",
+    img_user: "public/img_png/img18.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img15.png",
-    img_user: "src/images/png/img19.png",
+    img: "public/img_png/img15.png",
+    img_user: "public/img_png/img19.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img15.png",
-    img_user: "src/images/png/img20.png",
+    img: "public/img_png/img15.png",
+    img_user: "public/img_png/img20.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img17.png",
-    img_user: "src/images/png/img13.png",
+    img: "public/img_png/img17.png",
+    img_user: "public/img_png/img13.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img14.png",
-    img_user: "src/images/png/img18.png",
+    img: "public/img_png/img14.png",
+    img_user: "public/img_png/img18.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img15.png",
-    img_user: "src/images/png/img19.png",
+    img: "public/img_png/img15.png",
+    img_user: "public/img_png/img19.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img15.png",
-    img_user: "src/images/png/img20.png",
+    img: "public/img_png/img15.png",
+    img_user: "public/img_png/img20.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",
   },
   {
-    img: "src/images/png/img17.png",
-    img_user: "src/images/png/img13.png",
+    img: "public/img_png/img17.png",
+    img_user: "public/img_png/img13.png",
     name: "Nguyễn Minh Ánh",
-    star: "src/images/svg/5-star.svg",
+    star: "public/svg/5-star.svg",
     content:
       "Bệnh viện Phương Đông mang đến cho tôi cảm giác vô cùng bình yên và an tâm khi thăm khám tại đây!",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla etiam sed consequat dictumst viverra molestie tortor feugiat. Purus consequat, sapien diam nec. Egestas lacinia scelerisque ultrices vivamus adipiscing diam massa.",

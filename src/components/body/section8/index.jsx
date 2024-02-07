@@ -1,6 +1,6 @@
 export const Section8 = () => {
   return (
-    <section className="bg-[url('src/images/png/img21.png')] bg-no-repeat bg-cover">
+    <section className="bg-[url('public/img_png/img21.png')] bg-no-repeat bg-cover">
       <div className="container py-[4rem]">
         <div className="xl:w-1/2 rounded-2xl overflow-hidden ">
           <div className="flex flex-col justify-center items-center gap-2 bg-dd/400 text-white py-5">
@@ -65,7 +65,7 @@ export const Section8 = () => {
               <input type="checkbox" required />
               <p>Tôi không phải người máy</p>
               <div>
-                <img src="src/images/svg/Check.svg" alt="" />
+                <img src="public/svg/Check.svg" alt="" />
               </div>
             </div>
             <input
