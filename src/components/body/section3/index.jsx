@@ -44,9 +44,9 @@ export const Section3 = () => {
               .map((item, index) => (
                 <SwiperSlide
                   key={index}
-                  className="even:mt-[5rem] odd:mb-[5rem]"
+                  className="md:even:mt-[5rem] md:odd:mb-[5rem]"
                 >
-                  <div className=" bg-dd/400 overflow-hidden rounded-tl-[16%] rounded-br-[16%] rounded-lg p-3 flex flex-col gap-5 transform text-white">
+                  <div className="bg-dd/400 overflow-hidden rounded-tl-[16%] rounded-br-[16%] rounded-lg p-3 flex flex-col gap-5 transform text-white">
                     <div className="rounded-tl-[17%] overflow-hidden rounded-lg">
                       <img src="img3.png" width="100%" alt="" />
                     </div>

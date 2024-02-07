@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="flex flex-col gap-3">
         <div className="">
           <a href="#">
-            <img src="logo 1.png" alt="" />
+            <img src="Logo 1.png" alt="" />
           </a>
         </div>
         <h5 className="font-bold uppercase">Bệnh viện đa khoa phương đông</h5>

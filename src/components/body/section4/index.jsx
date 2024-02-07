@@ -56,10 +56,10 @@ export const Section4 = () => {
           </div>
         </div>
         <div className="2xl:translate-x-[10rem] bg-transparent overflow-hidden ">
-          <div className="relative bg-dd/400 rounded-tl-[50%] rounded-br-[50%] overflow-hidden rounded-lg">
+          <div className="relative bg-dd/400 md:rounded-tl-[50%] md:rounded-br-[50%] overflow-hidden rounded-lg">
             <img src="img8.png" alt="" />
             <button
-              className="absolute top-[45%] left-[13%] bg-btn w-fit text-white flex justify-center items-center hover:opacity-70 py-2 px-3 rounded-full gap-2"
+              className="absolute top-1/2 md:top-[45%] left-[18%] md:left-[13%] bg-btn w-fit text-white flex justify-center items-center hover:opacity-70 py-2 px-3 rounded-full gap-2"
               onClick={() => prompt("Vui lòng nhập số điện thoại !")}
             >
               <img src="document.png" alt="" />

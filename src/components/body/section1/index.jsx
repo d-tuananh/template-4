@@ -20,7 +20,7 @@ export const Section1 = () => {
               đây!
             </span>
           </div>
-          <form className="border border-solid border-[#50C577]  w-4/5 flex items-center justify-between p-2 pl-5 gap-2 rounded-full">
+          <form className="border border-solid border-[#50C577] w-full lg:w-4/5 flex items-center justify-between p-2 pl-5 gap-2 rounded-full">
             <input
               type="tel"
               className="w-full outline-none"
