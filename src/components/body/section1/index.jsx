@@ -27,6 +27,7 @@ export const Section1 = () => {
               pattern="[0-9]{10,12}"
               placeholder="Nhập số điện thoại..."
               title="Số điện thoại từ 10 đến 12 chữ số"
+              required
             />
             <button className="min-w-fit flex justify-center items-center gap-2 p-2 rounded-full text-white bg-linear-green hover:opacity-70 shadow-key-green-gradient">
               <img src="send.svg" alt="" />
@@ -35,7 +36,7 @@ export const Section1 = () => {
           </form>
         </div>
         <div className="2xl:translate-x-[10rem] bg-transparent overflow-hidden">
-          <div className="bg-dd/400 rounded-tl-[50%] rounded-br-[50%] rounded-lg overflow-hidden">
+          <div className="bg-dd/400 xl:rounded-tl-[50%] xl:rounded-br-[50%] rounded-lg overflow-hidden">
             <img src="img2.png" alt="" />
           </div>
         </div>

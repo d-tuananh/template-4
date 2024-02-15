@@ -44,7 +44,7 @@ export const Section4 = () => {
             {data.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-4 justify-center items-center md:even:translate-y-[4rem] md:odd:translate-y-0 border border-solid border-[#EBEBEB] py-5 px-3 rounded-2xl scale-100 hover:scale-110 transition duration-500 ease-in-out shadow-key-green-gradient cursor-pointer"
+                className="flex flex-col gap-4 justify-center items-center md:even:translate-y-[4rem] md:odd:translate-y-0 border border-solid border-[#EBEBEB] py-5 px-3 rounded-2xl shadow-key-green-gradient cursor-pointer"
               >
                 <div className="">
                   <img src={item.url} alt={item.title} />
@@ -59,7 +59,7 @@ export const Section4 = () => {
           <div className="relative bg-dd/400 md:rounded-tl-[50%] md:rounded-br-[50%] overflow-hidden rounded-lg">
             <img src="img8.png" alt="" />
             <button
-              className="absolute top-1/2 md:top-[45%] left-[18%] md:left-[13%] bg-btn w-fit text-white flex justify-center items-center hover:opacity-70 py-2 px-3 rounded-full gap-2"
+              className="absolute hidden top-[45%] left-[11%] md:left-[13%] lg:left-[10%] xl:left-[11%] 2xl:left-[13%] bg-btn w-fit text-white sm:flex justify-center items-center hover:opacity-70 py-2 px-3 rounded-full gap-2"
               onClick={() => prompt("Vui lòng nhập số điện thoại !")}
             >
               <img src="document.png" alt="" />

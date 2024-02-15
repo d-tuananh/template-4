@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply text-base text-main font-normal leading-tight font-c_Lato;
+    @apply text-base text-main font-normal leading-tight;
+    font-family: "Lato", sans-serif;
   }
   section {
     @apply mt-[6rem];
@@ -58,12 +57,12 @@
     @apply bg-gradient-to-r from-[#50C577] to-[#2DBEFC] bg-clip-text text-transparent relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:bg-dd/400 before:h-1;
   }
 
-  summary {
-    @apply relative before:content-['+'] before:absolute before:right-0 before:top-1/2 before:text-3xl before:-translate-y-1/2 before:bg-gradient-to-r before:from-[#50C577] before:to-[#2DBEFC] before:bg-clip-text before:text-transparent;
+  details summary {
+    @apply relative before:content-['+'] before:absolute before:-right-[5%] before:top-1/2 before:text-3xl before:-translate-y-1/2 before:bg-gradient-to-r before:from-[#50C577] before:to-[#2DBEFC] before:bg-clip-text before:text-transparent;
   }
 
   details[open] summary {
-    @apply before:content-['--'];
+    @apply before:content-['-'];
   }
 }
 

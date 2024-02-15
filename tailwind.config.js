@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        c_Lato: ["Lato", "sans-serif"],
+        c_Lato: "Lato",
       },
       colors: {
         main: "#252525",

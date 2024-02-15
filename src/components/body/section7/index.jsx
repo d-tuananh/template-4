@@ -36,12 +36,12 @@ export const Section7 = () => {
                 key={index}
                 className="cursor-pointer py-[1rem] border-b border-solid border-[#EBEBEB]"
               >
-                <summary className="font-semibold ">
+                <summary className="font-semibold mr-[5%]">
                   <span>
                     Cách phân biệt giữa cảm cúm thông thường và covid-19?
                   </span>
                 </summary>
-                <p className="mt-[.5rem]">
+                <p className="mt-[.5rem] mr-[5%]">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores animi, itaque ut architecto sed sapiente, in
                   distinctio esse aut provident consequuntur ipsa odit ab.
@@ -66,8 +66,8 @@ export const Section7 = () => {
               className="mySwiper2 mb-4 max-w-full"
             >
               {data.map((_, index) => (
-                <SwiperSlide key={index} className="max-w-fit cursor-pointer">
-                  <p className="pb-2">ORTHO K - 0{index + 1}</p>
+                <SwiperSlide key={index} className=" max-w-fit cursor-pointer">
+                  <p className="pb-2">ORTHO K-0{index + 1}</p>
                 </SwiperSlide>
               ))}
             </Swiper>
